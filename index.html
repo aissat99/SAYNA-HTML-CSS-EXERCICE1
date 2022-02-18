@@ -7,28 +7,31 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>MyUnicorn</title>
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+	<!--pour l'utilisation des icones dans la page-->
+	<script src="https://kit.fontawesome.com/931737ced7.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<!--L'en tête qui contient le lodo et la barre de navigations-->
 	<header>
-		<span>MyUnicorn</span>
+		<span class="styledFont logo">MyUnicorn</span>
 		<nav>
 			<ul>
-				<li>Le principe</li>
-				<li>Nos licornes</li>
-				<li>Nous trouver</li>
+				<li>LE PRINCIPE</li>
+				<li>NOS LICORNES</li>
+				<li>NOUS TROUVER</li>
 			</ul>
 		</nav>
 	</header>
 	<!--le contenu principal de la page, contenant le titre et les 3 sections-->
 	<div class="body">
-		<h1>Un jour, une licorne</h1>
+		<h1 class="styledFont">Un jour, une licorne</h1>
 		<main>
 			<section>
 				<!--Le titre, avec l'icone devant-->
 				<div class="title">
-					<span></span>
-					<h2>Le principe</h2>
+					<i class="fas fa-star-o"></i>
+					<h2 class="styledFont">Le principe</h2>
 				</div>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum dapibus ante, eu aliquam ante euismod eleifend. Ut malesuada augue ut luctus pellentesque. Aenean id varius ipsum. Nunc malesuada ex ut ipsum interdum vestibulum.Integer facilisis finibus orci, sit amet pretium diam placerat vitae. Nunc auctor tincidunt mollis. Nullam quis turpis sed lorem elementum semper eget semper risus. In nec mauris aliquam, congue metus euismod, cursus leo. Vivamus laoreet commodo leo, ut cursus justo blandit in. Aenean pretium mi a auctor pulvinar. Mauris sodales sollicitudin sodales. Sed mollis sed lectus id facilisis. Quisque pharetra a purus eget porttitor. Proin rhoncus risus non mauris iaculis sodales. Pellentesque euismod dui erat, non sodales ipsum sollicitudin sed.
@@ -41,7 +44,7 @@
 				<!--Le titre, avec l'icone devant-->
 				<div class="title">
 					<span></span>
-					<h2>Nos licornes</h2>
+					<h2 class="styledFont">Nos licornes</h2>
 				</div>
 				<div class="bloc_licornes">
 					<!--liste des licornes, avec leurs noms-->
@@ -65,20 +68,20 @@
 				<!--Le titre, avec l'icone devant-->
 				<div class="title">
 					<span></span>
-					<h2>Nous trouver</h2>
+					<h2 class="styledFont">Nous trouver</h2>
 				</div>
 				<!--Inclusion de google map-->
 				<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">use google map on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
 				<!--adresse et contact-->
 				<div class="contact">
-					<h3>Notre élevage de licornes est situé au :</h3>
+					<h3 class="styledFont">Notre élevage de licornes est situé au :</h3>
 					<p>
 					    Analakely Market <br>
 					    Arabe Rahezavana, Antananarivo, Madagascar <br>
 					    01.22.45.67.90
 					</p>
 					<!--newsletter-->
-					<h3>Newsletter</h3>
+					<h3 class="styledFont">Newsletter</h3>
 					<form action="newsletter.php" method="post">
 						<div class="email">
 							<label for="email">Abonnez-vous seulement à notre newsletter mensuel</label>

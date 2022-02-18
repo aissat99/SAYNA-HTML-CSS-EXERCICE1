@@ -1,0 +1,98 @@
+body{
+	margin: 0;	/*removing the gaps to reach all corners of the wiewport*/
+	font-family: Arial, sans-serif;
+	background-image: url("../img/background.png");
+}
+
+/*polices particuliers*/
+.styledFont{
+	font-family: 'Courgette', cursive;
+}
+
+/*Styles of the header of the page*/
+header{
+	display: flex;
+	height: 4em;
+	background-color: #C55394;
+	padding: 0% 1%;
+	margin: 0;
+}
+
+.logo{
+	color: white;
+	width: 70%;
+	align-self: center;
+	justify-content: flex-start;
+	padding-left: 1%;
+}
+
+nav{
+	width: 30%;
+}
+
+/*the ul of nav*/
+nav ul{
+	height: 100%;
+	display: flex;	/*the li will be displayed side by side*/
+	/*align-items: center;*/
+	justify-content: space-around;
+	list-style-type: none;	/*removing the dots in li*/
+	font-size: small;
+	color: white;
+	margin: 0;
+	padding-left: 0;
+}
+
+nav li{
+	padding: 1em;
+	margin: 0;
+	text-align: center;
+}
+
+/*change of colour of the selected sections*/
+nav li:hover{
+	background-color: #EB43A3;
+}
+/*end styles of the page header*/
+
+/*styles of the footer*/
+footer{
+	height: 10%;
+	background-color: #E577B5;
+	display: flex;
+	justify-content: flex-end;
+	color: white;
+	padding: 1% 1%;
+}
+/*end footer styles*/
+
+/*styles of the main content*/
+.body{
+	background-image: url("../img/rainbow.png");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+h1{
+	margin: 0;
+	color: #C55394;
+	padding: 10%;
+	padding-bottom: 0;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h2, h3{
+	color: #EB43A3;
+}
+
+main{
+	width: 60%;
+	margin: 3% auto;
+	border: 2px solid white;
+	box-shadow: 0px 0px 10px grey;	/*the two first values are vertical and horizontal position of the shadow, next is the blur effect*/
+	border-radius: 0.5em;
+	padding: 2%;
+	background-color: white;
+}
